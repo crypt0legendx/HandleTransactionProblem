@@ -55,7 +55,7 @@ async function prioritize(transaction: Array<Transaction>, totalTime=1000) {
     });  
 
     console.log('MAX_AMOUNT', result_max_amt);
-    // console.log('TRANSACTION_LIST', transactions);
+    console.log('TRANSACTION_LIST', transactions);
 }
 
 const main = async() => {   
